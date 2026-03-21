@@ -1583,7 +1583,7 @@ button {
 	transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 	/* background-image: url("../../images/bg.jpg"); */
 	/*background-image: url("../../images/mainbg_1.jpg");*/
-	background-image: url("../../images/mainbg_2.png");
+	background-image: url("../../images/mainbg.png");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1593,7 +1593,7 @@ button {
 	/* animation: bgChange 20s infinite; */
 }
 
-@keyframes bgChange {
+/* @keyframes bgChange {
 	0% {
 		background-image: url("../../images/test01.jpg");
 	}
@@ -1609,7 +1609,7 @@ button {
 	100% {
 		background-image: url("../../images/test04.jpg");
 	}
-}
+} */
 
 body.is-article-visible #bg:after {
 	-moz-transform: scale(1.0825);
